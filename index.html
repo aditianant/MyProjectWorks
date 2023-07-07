@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form and its Actions</title>
+</head>
+<body>
+    <h3><u> Registration Form </u></h3>
+    <form action="/action.php">
+        <p>Enter your Usename and Password:-</p>
+        <input type="text" placeholder="Username">
+        <br><br>
+        <input type="password" placeholder="Password">
+        <hr>
+
+        <p>Enter something about yourself in few words:-</p>
+        <input type="text" placeholder="Type Something Here!">
+        <hr>
+
+        <p>Select Your class:-</p>
+        <label for="101">
+            <input type="radio" value="Class XI" name="class" id="101">Class XI
+        </label>
+        <br>
+        <label for="102">
+            <input type="radio" value="Class XII" name="class" id="102">Class XII
+        </label>
+        <hr>
+
+        <p>Select your favourite subjects:-</p>
+        <label for="101">
+            <input type="checkbox" value="Maths" name="subject" id="101">Maths
+        </label>
+        <br>
+        <label for="102">
+            <input type="checkbox" value="Physics" name="subject" id="102">Physics
+        </label>
+        <br>
+        <label for="103">
+            <input type="checkbox" value="Chemistry" name="subject" id="103">Chemistry
+        </label>
+        <br>
+        <label for="104">
+            <input type="checkbox" value="Biology" name="subject" id="104">Biology
+        </label>
+        <br>
+        <label for="105">
+            <input type="checkbox" value="Computer Science" name="subject" id="105">Computer Science
+        </label>
+        <hr>
+
+        <p>Select the state you belong:-</p>
+        <select name="State">
+            <option value="Select your state">Select your state</option>
+            <option value="Bihar">Bihar</option>
+            <option value="Delhi">Delhi</option>
+            <option value="Maharashtra">Maharashtra</option>
+            <option value="Tamil Nadu">Tamil Nadu</option>
+        </select>
+        <hr>
+
+        <p>Write something about yorself:-</p>
+        <textarea name="Feedback" id="101" cols="30" rows="10" placeholder="Enter your Description"></textarea>
+        <hr>
+
+        <input type="Submit" value="Submit">
+    </form>
+</body>
+</html>
